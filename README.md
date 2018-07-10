@@ -8,7 +8,9 @@ Professor: Luiz Pedro Petroski
 ------------------------------------------LOGIN---------------------------------------------------
 
 Sistema permite a escolha de dois perfis diferentes, e caso o usuário não conste no banco de dados, ele será criado, ao contrário, fará o login. Usuários para teste:
+
 CLIENTE
+
 	Nome: Adriana Alves
 	Senha: 12345
 
@@ -16,6 +18,7 @@ CLIENTE
 	Senha: 56789
   
 ADMIN
+
 	Nome: admin
 	Senha: admin
 	
@@ -28,12 +31,13 @@ Sistema de pedidos com dois perfis distintos:
 ------------------------------------------INSTALANDO O SISTEMS------------------------------------------
 
 Passos para instalação do sistema:
-Passos:
 
 *Instalação:
+
 	$ npm install -g express
 
 *Esqueleto do projeto:
+
 	$ express pizzaria --ejs
 	$ cd pizzaria
 	$ npm install
@@ -41,6 +45,7 @@ Passos:
 *Substituir todas as pastas
 
 *Atualiar modulos:
+
 	$ npm install
 
 *Módulos adicionais:
@@ -52,6 +57,7 @@ Passos:
 	$ npm install -g @angular/cli@latest
 
 *Iniciar MongoDB
+
 	Colocar nas variaveis Path do windows o caminho da pasta Bin do MongoDb instalado no seu computador
 	Entrar na pasta onde está instalado:
 	Ex: C:\Program Files\MongoDB\Server\3.6\bin
@@ -59,6 +65,7 @@ Passos:
 	$ mongod --dbpath=c:\pizzaria\db (troque pelo caminho salvo o projeto)
 
 *Conectar ao MongoDB
+
 	Abra outro prompt de comando e digite
 	$ mongo
 	Para listar as bases de dados, digite
@@ -71,6 +78,7 @@ Passos:
 	$ db.usuarios.drop()
 
 *Iniciar projeto
+
 	Entre na pasta e digite:
 	$ node app.js
 	ou
