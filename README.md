@@ -8,6 +8,8 @@ Trabalho final da disciplina: Desenvolvimento Web com JavaScript
 
 Professor: Luiz Pedro Petroski
 
+Em produção: https://pizzamia.herokuapp.com/ 
+
 ------------------------------------------LOGIN---------------------------------------------------
 
 Sistema permite a escolha de dois perfis diferentes, e caso o usuário não conste no banco de dados, ele será criado, ao contrário, fará o login. Usuários para teste:
