@@ -1,8 +1,11 @@
 ------------------------------------------PROJETO------------------------------------------------
 
 PizzaMia - Sistema de pedidos on-line
+
 Projeto desenvolvido por: Adriana Alves e Deiziane Buganti, com Node js, Express e MongoDb
+
 Trabalho final da disciplina: Desenvolvimento Web com JavaScript
+
 Professor: Luiz Pedro Petroski
 
 ------------------------------------------LOGIN---------------------------------------------------
@@ -25,7 +28,9 @@ ADMIN
 ------------------------------------------PERFIS------------------------------------------------------
 
 Sistema de pedidos com dois perfis distintos:
+
 *Cliente = pode criar pedidos, editar e excluir seus pedidos, porém não pode alterar o status dos mesmos.
+
 *Admin = pode visualizar todos os clientes cadastrados e listar seus pedidos, mas não pode alterá-los ou excluí-los. Apenas pode alterar o status do pedido.
 
 ------------------------------------------INSTALANDO O SISTEMS------------------------------------------
